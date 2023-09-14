@@ -1,0 +1,37 @@
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 800px;
+    height: 80px;
+    background-color: antiquewhite;
+    clear:both;
+    font-size: 24pt;
+}
+
+#nav {
+    width: 150px;
+    background-color: beige;
+    float:left;
+}
+
+#content {
+    width: 500px;
+    background-color: azure;
+    float:left;
+}
+
+#supporting {
+    width:150px;
+    background-color: antiquewhite;
+    float:left;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    background-color: aquamarine;
+    clear:both;
+}
