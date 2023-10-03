@@ -1,37 +1,58 @@
-#wrapper {
-    width: 800px;
-    margin: 0 auto;
+/* 全局樣式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#banner {
-    width: 800px;
-    height: 80px;
-    background-color: antiquewhite;
-    clear:both;
-    font-size: 24pt;
+/* Banner樣式 */
+.banner {
+    background-color: #00cc99; /* 更新Banner底色為藍綠色 */
+    text-align: center;
+    padding: 20px;
+    height: 100px; /* 更新Banner高度 */
 }
 
-#nav {
-    width: 150px;
-    background-color: beige;
-    float:left;
+/* Navigator樣式 */
+.navigator {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: left; /* 更新Navigator文字靠左 */
 }
 
-#content {
-    width: 500px;
-    background-color: azure;
-    float:left;
+.navigator a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-size: 18px;
 }
 
-#supporting {
-    width:150px;
-    background-color: antiquewhite;
-    float:left;
+.navigator a:first-child {
+    font-size: 24px;
 }
 
-#footer {
-    width: 800px;
-    height: 50px;
-    background-color: aquamarine;
-    clear:both;
+.navigator a:hover {
+    background-color: #555;
 }
+
+/* 區段小Banner樣式 */
+.section-banner {
+    background-color: #ffcc00;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 區段內容樣式 */
+.section {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+

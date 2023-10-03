@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁樣式示例</title>
+    <link rel="stylesheet" href="css/main.css"> <!-- 引入外部CSS樣式表 -->
 </head>
-
 <body>
-    <div id="wrapper">
-        <div id="banner">練習寫網頁</div>
-
-        <div id="nav">
-            <ul>
-                <li><a href="#最新消息">最新消息</a></li>
-                <li><a href="#關於我們">關於我們</a></li>
-                <li><a href="#贊助我們">贊助我們</a></li>
-                <li><a href="#查看更多">查看更多</a></li>
-            </ul>
-        </div>
-
-        <div id="content">
-            <ul>
-                <h1>最新消息</h1>
-                <p>測試寫第一段...</p>
-                <p>測試寫第二段...</p>
-                <h1>關於我們</h1>
-                <p>大家好，我們是...</p>
-                <h1>贊助我們</h1>
-                <h1>查看更多</h1>
-            </ul>
-        </div>
-
-        <div id="supporting">I am supporting.</div>
-
-        <div id="footer">I am footer.</div>
-
+    <div class="banner">
+        <h1>這裡是Banner</h1>
     </div>
 
+    <div class="navigator">
+        <a href="#home">首頁</a>
+        <a href="#section1">區段一</a>
+        <a href="#section2">區段二</a>
+        <a href="#section3">區段三</a>
+    </div>
 
+    <div id="section1" class="section-banner">
+        <h2>區段一</h2>
+    </div>
+    <div class="section">
+        <h3>區段一內容</h3>
+        <p>這是區段一的內容。</p>
+    </div>
+
+    <div id="section2" class="section-banner">
+        <h2>區段二</h2>
+    </div>
+    <div class="section">
+        <h3>區段二內容</h3>
+        <p>這是區段二的內容。</p>
+    </div>
+
+    <div id="section3" class="section-banner">
+        <h2>區段三</h2>
+    </div>
+    <div class="section">
+        <h3>區段三內容</h3>
+        <p>這是區段三的內容。</p>
+    </div>
 </body>
-
 </html>
+
