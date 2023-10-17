@@ -1,0 +1,137 @@
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+#myPage {
+    width: 930px;
+    margin: 0 auto;
+}
+
+#ban_image {
+    width: 100%;
+    height: 335px;
+    opacity: 0.8;
+    background-image: url("/assets/banner_image.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#ban-background {
+    height: 800px;
+    width: 800px;
+    background-image: url("/assets/1141x1140_wmkn_520437546079.jpg");
+    /* Set the initial background image */
+    background-size: cover;
+    /* Add this for better image scaling */
+}
+
+#tofix1 {
+    height: 150px;
+    background-color: gray;
+    width: 930px;
+    position: sticky;
+    top: 0;
+}
+
+.navigator {
+    background-color: #333;
+    position: sticky;
+    top: 150px;
+    text-align: left;
+    height: 60px;
+    /* 更新Navigator文字靠左 */
+}
+
+.navigator a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.navigator a:first-child {
+    font-size: 24px;
+}
+
+.navigator a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+.section-banner {
+    background-color: #ffcc00;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.section p {
+    text-align: left;
+}
+
+.section-banner2 {
+    background-color: black;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-banner3 {
+    background-color: white;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.img3 {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+div.img3 img {
+    display: inline;
+    margin: 5px;
+    width: 900px;
+    border: 1px solid #ffffff;
+}
+
+#content-tail {
+    position: sticky;
+    top: 210px;
+    height: 100px;
+    background-color: lightgrey;
+    padding-top: 5px;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 400px;
+}
+
+#footer a:hover {
+    color: black;
+    font-weight: bald;
+    text-decoration: none;
+}
