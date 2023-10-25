@@ -1,0 +1,56 @@
+#body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 800px;
+    height: 80px;
+    background-color: antiquewhite;
+    clear: both;
+    font-size: 24pt;
+    position: fixed;
+    opacity: 0.7;
+}
+
+#banner-placeholder {
+    width: 800px;
+    height: 80px;
+}
+
+#nav {
+    width: 150px;
+    background-color: beige;
+    float: left;
+    position: fixed;
+}
+
+#nav-placeholder {
+    width: 150px;
+    float: left;
+}
+
+#content {
+    width: 500px;
+    background-color: azure;
+    float: left;
+}
+
+#supporting {
+    width: 150px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    background-color: aquamarine;
+    clear: both;
+}

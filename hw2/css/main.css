@@ -1,0 +1,57 @@
+/* 全局樣式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner樣式 */
+.banner {
+    background-color: #00cc99; /* 更新Banner底色為藍綠色 */
+    text-align: center;
+    padding: 20px;
+    height: 100px; /* 更新Banner高度 */
+}
+
+/* Navigator樣式 */
+.navigator {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: left; /* 更新Navigator文字靠左 */
+}
+
+.navigator a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.navigator a:first-child {
+    font-size: 24px;
+}
+
+.navigator a:hover {
+    background-color: #555;
+}
+
+/* 區段小Banner樣式 */
+.section-banner {
+    background-color: #ffcc00;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 區段內容樣式 */
+.section {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
